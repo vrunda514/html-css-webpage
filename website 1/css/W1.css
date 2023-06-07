@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+	color: darkred;
+	padding: 20px;
+}
+nav{
+	background: lime;
+	display: grid;
+	place-items: center;
+}
+nav ul li{
+	display: inline-block;
+	height: 100px;
+	width: 90px;
+/*	border: 1px solid black;*/
+	font-size: 25px;
+	margin-left: 10px;
+	line-height: 100px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ nav ul li:hover{
+	background: limegreen;
+	}
+a:hover{
+	color: white;
+}
+img{
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.items{
+	height: 1200px;
+	width: 100%;
+/*	border: 1px solid black;*/
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap; 	
+	justify-content: space-evenly;	
+}
+.items img:hover{
+	transform: scale(1.04);
+}
+.name{
+	flex-basis:20%;
+	height: 300px;
+/*	border: 1px solid black;*/
+}
+.name h3{
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 1.5px;
+}
+.name button{
+	font-size: 20px;
+	margin-left: 100px;
+	border-radius: 8px;
+	width:100px;
+	text-align: center;
+	background-color: lime;
+
+}
+footer{
+	height: 120px;
+	width: 100%;
+	background-color: lime;
+	margin-top: 20px;
+}
+i.fa{
+	font-size: 40px;
+	margin-top: 40px;
+	margin-left: 50px;
+
+}
+
+.ft2{
+	font-size: 40px;
+	margin-top: 40px;
+	background-color: lime;
+}
+ div span{
+	margin-left: 800px;
+	font-size: 30px;
+	line-height: 90px;
+}
