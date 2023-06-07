@@ -1,0 +1,305 @@
+*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		.header{
+			height: 120px;
+			width: 100%;
+/*			border: 1px solid black;*/
+			display: flex;
+			background: white;
+			position: sticky;
+			top: 0;
+
+		}
+		.logo{
+			height: 120px;
+			width: 15%;
+			font-size:35px;
+			font-family: arial-bold;
+			line-height:120px;
+			text-align: center;
+			font-weight: bold;
+			float: left;
+/*			border: 1px solid blue;*/
+		}
+		nav{
+			height: 120px;
+			width: 60%;
+/*			border: 1px solid red;*/
+			margin-left: 250px;
+		}
+		nav ul li{
+			text-decoration: none;
+			float: left;
+			list-style: none;
+			font-size: 23px;
+/*			border: 1px solid black;*/
+			line-height: 120px;
+			padding-left:10px;
+			margin-left:50px;
+		}
+		.login {
+			height: 120px;
+			width: 15%;
+			font-size: 25px;
+			line-height: 120px;
+			float: left;
+/*			border: 1px solid black;*/
+		}
+		.login .fa{
+			color: skyblue;
+		}
+		.bigimg{
+			height:80vh;
+			width: 100%;
+/*			border: 1px solid black;*/
+		} 
+		.img img{
+			height:80vh;
+			width:100%;
+			object-fit: fill;
+		}
+		.img h1{
+			font-size:100px;
+			margin-top: -450px;
+			margin-left:500px;
+			letter-spacing:30px;	
+		}
+		.img h2{
+			font-size:30px;
+			margin-left:470px;
+			word-spacing: 10px;
+		}
+		.img button{
+			font-size:20px;
+			margin-left: 650px;
+			padding: 5px;
+			border-radius: 5px;
+			margin-top: 20px;
+		}
+		.img button:hover{
+			background: black;
+			color: white;
+		}
+		.about{
+			height: 80vh;
+			width: 100%;
+/*			border: 1px solid black;*/
+		}
+		.row{
+			height:600px;
+			width: 100%;
+/*			border: 1px solid orange;*/
+			display: flex;
+			justify-content: center;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		.aimg img{
+			height:500px;
+			width: 550px;
+			object-fit: fill;
+			border-radius: 10px;
+			margin-top: 120px;
+/*			border: 1px solid black;*/
+		}
+		.acon{
+			height:450px;
+			width: 460px;
+			margin-top: 90px;
+/*			border: 1px solid black;*/
+		}
+		.acon p{
+			height:270px;
+			width: 450px;
+			font-size:25px;
+			padding-left:0px;
+			line-height: 28px;
+			text-align: center;
+			margin-left:0px;
+/*			border: 1px solid yellowgreen;*/
+		}
+		.acon p::first-letter{
+			font-size: 35px;
+			color: red;
+		}
+		.acon  span{
+			line-height: 100px;
+			margin-left:100px;
+			font-size: 50px;
+			font-weight: bold;
+			margin-bottom:40px;
+		}
+		.acon button{
+			font-size: 15px;
+			margin-left:170px;
+			padding:10px;
+			margin-top: 10px;
+			background-color: black;
+			color: white;
+		}
+		.guide{
+			height:120vh;
+			width: 100%;
+/*			border: 1px solid black;*/
+			margin-top: 150px;
+			position: relative;
+		}
+		.guide img{
+			height: 110vh;
+			width: 100%;
+			object-fit: fill;
+			opacity: 0.3;
+/*			border: 1px solid black;*/
+		}
+		.guide h2{
+			font-size: 60px;
+			margin-left:390px;
+			line-height:150px;
+			position: absolute;
+			top: -1%;
+/*			border: 1px solid black;*/
+		}
+		.g1{
+			height:	65vh;
+			width: 80%;
+			position: absolute;
+			top: 10%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+/*			border: 1px solid red;*/
+			margin-top:100px;
+			margin-left:130px;
+		}
+		.gsec{
+			height: 55vh;
+			flex-basis:29%;
+			margin-top:10px;
+			border: 4px solid black;
+		}
+		.gsec h1{
+			text-align: center;
+			margin-top: 10px;
+		}
+		.gsec h3{
+			text-align: center;
+			line-height: 20px;
+			margin-top: 20px;
+		}
+		.gsec .hr{
+			border: 1px solid black;
+			height: 2px;
+			width: 130px;
+			margin-left:80px;
+			margin-top: 20px;
+		}
+		.gsec button{
+			margin-left:90px;
+			margin-top: 20px;
+			font-size: 20px;
+			width:90px;
+		}
+		.guide .service{
+			font-size:20px;
+			width: 250px;
+			position: absolute;
+			top:79%;
+			left:40%;
+			padding: 5px;
+
+		}
+		.contact{
+			height: 80vh;
+			width: 100%;
+			display: flex;
+			margin-top: 50px;
+			opacity: 0.8;
+			justify-content:space-evenly;
+/*			border: 1px solid black;*/
+			background-color:lightskyblue;
+
+		}
+		.c1{
+			height:70vh;
+			flex-basis:30%;
+/*			border: 1px solid black;*/
+			margin-top: 70px;
+			text-align: center;
+		}
+		.c1 h1{
+			font-size: 30px;
+			font-weight: bold;
+			font-family: arial;
+			line-height: 100px;
+		}
+		.c1 h2{
+			font-size: 25px;
+			word-spacing:5px;
+			line-height:25px;
+			margin-top: 20px;
+
+		}
+		.c1 h2 .fa{
+			margin-top: 15px;
+			padding-left: 15px;
+		}
+		.c1 h2 .in{
+			color: orangered;
+		}
+		.c1 h2 .tw{
+			color:deepskyblue;
+		}
+		.c1 h2 .yt{
+			color: red;
+		}
+		.c1 h2 .fb{
+			color:blue;
+		}
+		.c1 h3{
+			font-size:18px;
+			line-height: 25px;
+			word-spacing: 15px;
+			margin-top: 20px;
+
+		}
+		.c1 h4{
+			font-size: 20px;
+			word-spacing: 10px;
+			line-height: 25px;
+			margin-top: 20px;
+
+		}
+		.c2{
+			height:60vh;
+			flex-basis: 30%;
+			margin-top: 95px;
+			line-height:30px;
+			padding-left: 20px;
+/*			border: 1px solid red;*/
+		}
+		.c2 label{
+			font-size:2.8vmin;
+			font-weight: bold;
+			line-height:45px;
+		}
+		.c2 input{
+			width: 250px;
+		}
+		.submit{
+			width:80px;
+			padding:5px;
+			border-color: black;
+		}
+		.footer{
+			height:60px;
+			width: 100%;
+			background-color: lightskyblue;
+/*			opacity: 0.7;*/
+			line-height: 50px;
+			font-size: 20px;
+			padding-left:800px;
+/*			border: 1px solid black;*/
+		}
